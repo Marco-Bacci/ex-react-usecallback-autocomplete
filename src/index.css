@@ -1,6 +1,28 @@
-input{
+input {
   margin: 10px;
   padding: 5px;
   border: 3px, solid, rgb(7, 73, 95);
   border-radius: 10px;
+}
+ul {
+  list-style-type: none;
+}
+
+.suggerimenti {
+  
+  max-height: 300px;
+  max-width: 300px;
+  overflow: auto;
+  padding: 10px;
+}
+
+p {
+  background-color: azure;
+  border: 1px, solid, black;
+  padding: 5px;
+  border-radius: 10px;
+}
+p:hover {
+  cursor: pointer;
+  background-color: beige;
 }
